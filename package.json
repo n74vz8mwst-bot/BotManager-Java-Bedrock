@@ -1,0 +1,16 @@
+{
+  "name": "minecraft-bot-manager",
+  "version": "1.0.0",
+  "description": "Console-based Minecraft Java and Bedrock bot manager",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check src/cli.js && node --check src/store.js && node --check src/bots.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.50.0",
+    "mineflayer": "^4.31.0",
+    "readline-sync": "^1.4.10"
+  }
+}
